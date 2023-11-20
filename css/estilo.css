@@ -241,6 +241,14 @@ h4{
     font-weight: bold;
 }
 
+.clientes {
+    width: 100%;
+    height: auto;
+}
+.clientes:hover {
+    transform: scale(1.05);
+}
+
 /*medias queris*/
 
 @media screen and (max-width: 479px) {
@@ -259,6 +267,11 @@ h4{
     h1 {
         text-align: center;
         padding-top: 100px;
+    }
+
+    nav{
+        width: 85%;
+        height: 85px;
     }
 
     .contenedor-productos {
