@@ -1,0 +1,27 @@
+footer{
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-evenly;
+    .menu {
+        list-style: none;
+        padding: 2rem;
+        margin: 0;
+        
+        li {
+            display: inline;
+            a {
+                color: white;
+                text-decoration: none;
+                padding: 0.7rem 2rem;
+
+                &:hover {
+                    color: black;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+        }
+    }
+}

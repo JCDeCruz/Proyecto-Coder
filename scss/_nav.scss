@@ -1,0 +1,28 @@
+nav{
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 99px;
+        margin: auto;
+        padding: 5px;
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 0.7rem 1rem;
+            &:hover{
+                color: black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+    }
+}

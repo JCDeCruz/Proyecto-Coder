@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@import "body";
+@import "nav";
+@import "index";
+@import "contacto";
+@import "productos";
+@import "footer";
+
+@import "mediasquerys";

@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px) {
+    header {
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    nav{
+        width: 85%;
+        height: 85px;
+    }
+
+    .contenedor-productos {
+        color: white;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(10, auto);
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "curso-1"
+          "img-curso-1"
+          "curso-2"
+          "img-curso-2"
+          "curso-3"
+          "img-curso-3"
+          "curso-4"
+          "img-curso-4"
+          "curso-5"
+          "img-curso-5"; 
+      }
+      .curso-1 { grid-area: curso-1; }
+      .img-curso-1 { grid-area: img-curso-1; }
+      .curso-2 { grid-area: curso-2; }
+      .img-curso-2 { grid-area: img-curso-2; }
+      .curso-3 { grid-area: curso-3; }
+      .img-curso-3 { grid-area: img-curso-3; }
+      .curso-4 { grid-area: curso-4; }
+      .img-curso-4 { grid-area: img-curso-4; }
+      .curso-5 { grid-area: curso-5; }
+      .img-curso-5 { grid-area: img-curso-5; }
+      
+    .img-curso-1 img,
+    .img-curso-2 img,
+    .img-curso-3 img,
+    .img-curso-4 img,
+    .img-curso-5 img {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    margin: 0 auto; 
+    text-align: center;
+}
+    .menu{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .centrar{
+        text-align: center;
+    }
+    .Lo-Quiero{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .frustrado img{
+        width: auto;
+        height: 300px;
+        
+    }
+    .bajar{
+        margin-top: 20rem;
+        
+    }
+}

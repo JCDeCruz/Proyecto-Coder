@@ -1,0 +1,35 @@
+h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2rem;
+}
+.contenedor{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+
+    .img-izq, .img-der{
+        flex: 1;
+        text-align: center;
+
+        img{
+            width: 400px; 
+            display: block;
+            margin: 0 auto;
+            padding: 5rem;
+        }
+    }
+
+    .formulario {
+        flex: 1; 
+        padding: 0 20px; 
+        background-color: rgb(58, 58, 58);
+        text-align: center;
+        color: white;
+    }
+}

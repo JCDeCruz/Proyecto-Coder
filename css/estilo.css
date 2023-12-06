@@ -1,341 +1,353 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: black;
-}
-h1{
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 3rem;
-}
-nav{
-    width: 90%;
-    height: 80px;
-    margin: 0 auto;
-    background-color: darkorange;
-    display: flex;
-    justify-content: space-between;
-}
-img {
-    width: 99px;
-    margin: auto;
-    padding: 5px;
-}
-.menu{
-    list-style: none;
-    display: flex;
-    padding: 10px;
-    align-items: center;
-}
-nav .menu a{
-    color: white;
-    text-decoration: none;
-    padding: 0.7rem 1rem;
-}
-nav .menu a:hover{
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-main{
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.content {
-    flex: 1;
-}
-h3{
-    margin-bottom: 4rem;
-    margin-left: 5rem;
-    font-size: 2rem;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-main p{
-    flex: 1;
-    margin-left: 5rem;
-}
-.frustrado img {
-    width: 650px;
-    height: auto;
-    padding-right: 70px;
-    border-radius: 30px;
-    padding-top: 3rem;
-}
-.entre{
-    color: white;
-    padding: 20px;
-}
-.entre p{
-    padding: 1rem;
-    margin-left: 4rem;
-    margin-bottom: 2rem;
-    margin-right: 4rem;
-}
-footer{
-    width: 90%;
-    height: 80px;
-    margin: 0 auto;
-    background-color: darkorange;
-    display: flex;
-    justify-content: space-evenly;
-}
-footer .menu a{
-    color: white;
-    text-decoration: none;
-    padding: 0.7rem 1rem;
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: black;
 }
 
-footer .menu a:hover{
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+nav {
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  background-color: darkorange;
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  width: 99px;
+  margin: auto;
+  padding: 5px;
+}
+nav .menu {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+nav .menu a {
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+}
+nav .menu a:hover {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* para visualización*/
-
-p{
-    color: white;
-    display: flex;
-    align-items: center;
-    margin: 5rem;
-}
-h2{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 2rem;
-}
-.img-izq, .img-der {
-    flex: 1; 
-    text-align: center;
+h1 {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 3rem;
 }
 
-.img-izq img, .img-der img {
-    width: 400px; 
-    display: block;
-    margin: 0 auto;
-    padding: 5rem;
+p {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 5rem;
 }
 
-.formulario {
-    flex: 1; 
-    padding: 0 20px; 
-    background-color: rgb(58, 58, 58);
-    text-align: center;
-    color: white;
+main {
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .content {
+  flex: 1;
+}
+main .content h3 {
+  margin-bottom: 4rem;
+  margin-left: 5rem;
+  font-size: 2rem;
+}
+main .frustrado img {
+  width: 650px;
+  height: auto;
+  padding-right: 70px;
+  border-radius: 30px;
+  padding-top: 3rem;
+}
+
+.entre {
+  color: white;
+  padding: 20px;
+}
+.entre p {
+  padding: 1rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  margin-right: 4rem;
+}
+
+h3 {
+  margin-bottom: 4rem;
+  margin-left: 5rem;
+  font-size: 2rem;
+}
+
+h2 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .contenedor {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 0 auto;
-    height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  height: 500px;
 }
-/* Me queda el formulario medio raro, no es lo que quiero lograr, me dan una mano para mejorarlo? La idea es que quede como en el wireframe */
+.contenedor .img-izq, .contenedor .img-der {
+  flex: 1;
+  text-align: center;
+}
+.contenedor .img-izq img, .contenedor .img-der img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding: 5rem;
+}
+.contenedor .formulario {
+  flex: 1;
+  padding: 0 20px;
+  background-color: rgb(58, 58, 58);
+  text-align: center;
+  color: white;
+}
 
-h4{
-    font-weight: bold;
-    font-size: 35px;
-    text-decoration: underline;
+h4 {
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: underline;
 }
 
 .contenedor-productos {
-    color: white;
-    width: auto;
-    height: auto;
-    margin: 5.5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "curso-1 img-curso-1"
-      "curso-2 img-curso-2"
-      "curso-3 img-curso-3"
-      "curso-4 img-curso-4"
-      "curso-5 img-curso-5";
-    }
-  
+  color: white;
+  width: auto;
+  height: auto;
+  margin: 5.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "curso-1 img-curso-1" "curso-2 img-curso-2" "curso-3 img-curso-3" "curso-4 img-curso-4" "curso-5 img-curso-5";
+}
+
 .img-curso-1 {
-     grid-area: img-curso-1;
+  grid-area: img-curso-1;
 }
-  
+
 .img-curso-2 {
-     grid-area: img-curso-2; 
+  grid-area: img-curso-2;
 }
-  
+
 .img-curso-3 {
-     grid-area: img-curso-3; 
+  grid-area: img-curso-3;
 }
-  
+
 .img-curso-4 {
-     grid-area: img-curso-4; 
+  grid-area: img-curso-4;
 }
-  
+
 .img-curso-5 {
-     grid-area: img-curso-5; 
+  grid-area: img-curso-5;
 }
-  
+
 .curso-1 {
-     grid-area: curso-1; 
+  grid-area: curso-1;
 }
-  
-.curso-2 { 
-    grid-area: curso-2; 
+
+.curso-2 {
+  grid-area: curso-2;
 }
-  
+
 .curso-3 {
-     grid-area: curso-3; 
+  grid-area: curso-3;
 }
-  
+
 .curso-4 {
-     grid-area: curso-4; 
+  grid-area: curso-4;
 }
-  
+
 .curso-5 {
-     grid-area: curso-5; 
+  grid-area: curso-5;
 }
+
 .img-curso-1 img,
 .img-curso-2 img,
 .img-curso-3 img,
 .img-curso-4 img,
 .img-curso-5 img {
-    width: 50%;
-    height: auto; 
-    display: block;
-    margin: 0 auto; 
-    text-align: center;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
+
 .img-curso-1 img:hover,
 .img-curso-2 img:hover,
 .img-curso-3 img:hover,
 .img-curso-4 img:hover,
 .img-curso-5 img:hover {
-    transform: scale(1.1);
-    opacity: 0.9;
+  transform: scale(1.1);
+  opacity: 0.9;
 }
+
 .Lo-Quiero {
-    background-color: rgb(10, 9, 9);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    margin-left: 320px;
+  background-color: rgb(10, 9, 9);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 320px;
 }
 
 .Lo-Quiero:hover {
-    background-color: rgba(250, 167, 66, 0.445);
-    color: white;
-    font-weight: bold;
+  background-color: rgba(250, 167, 66, 0.445);
+  color: white;
+  font-weight: bold;
 }
 
 .clientes {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
+
 .clientes:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-/*medias queris*/
+footer {
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  background-color: darkorange;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .menu {
+  list-style: none;
+  padding: 2rem;
+  margin: 0;
+}
+footer .menu li {
+  display: inline;
+}
+footer .menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem 2rem;
+}
+footer .menu li a:hover {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-@media screen and (max-width: 479px) {
-    header {
-        position: relative;
-    }
-
-    .logo {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        padding-top: 20px;
-    }
-
-    h1 {
-        text-align: center;
-        padding-top: 100px;
-    }
-
-    nav{
-        width: 85%;
-        height: 85px;
-    }
-
-    .contenedor-productos {
-        color: white;
-        width: auto;
-        height: auto;
-        margin: 0 auto;
-        display: grid; 
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(10, auto);
-        gap: 0px 0px; 
-        grid-template-areas: 
-          "curso-1"
-          "img-curso-1"
-          "curso-2"
-          "img-curso-2"
-          "curso-3"
-          "img-curso-3"
-          "curso-4"
-          "img-curso-4"
-          "curso-5"
-          "img-curso-5"; 
-      }
-      .curso-1 { grid-area: curso-1; }
-      .img-curso-1 { grid-area: img-curso-1; }
-      .curso-2 { grid-area: curso-2; }
-      .img-curso-2 { grid-area: img-curso-2; }
-      .curso-3 { grid-area: curso-3; }
-      .img-curso-3 { grid-area: img-curso-3; }
-      .curso-4 { grid-area: curso-4; }
-      .img-curso-4 { grid-area: img-curso-4; }
-      .curso-5 { grid-area: curso-5; }
-      .img-curso-5 { grid-area: img-curso-5; }
-      
-    .img-curso-1 img,
-    .img-curso-2 img,
-    .img-curso-3 img,
-    .img-curso-4 img,
-    .img-curso-5 img {
-    width: 100%;
-    height: 100%; 
-    display: flex;
-    margin: 0 auto; 
+@media screen and (max-width: 600px) {
+  header {
+    position: relative;
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+  }
+  h1 {
     text-align: center;
+    padding-top: 100px;
+  }
+  nav {
+    width: 85%;
+    height: 85px;
+  }
+  .contenedor-productos {
+    color: white;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, auto);
+    gap: 0px 0px;
+    grid-template-areas: "curso-1" "img-curso-1" "curso-2" "img-curso-2" "curso-3" "img-curso-3" "curso-4" "img-curso-4" "curso-5" "img-curso-5";
+  }
+  .curso-1 {
+    grid-area: curso-1;
+  }
+  .img-curso-1 {
+    grid-area: img-curso-1;
+  }
+  .curso-2 {
+    grid-area: curso-2;
+  }
+  .img-curso-2 {
+    grid-area: img-curso-2;
+  }
+  .curso-3 {
+    grid-area: curso-3;
+  }
+  .img-curso-3 {
+    grid-area: img-curso-3;
+  }
+  .curso-4 {
+    grid-area: curso-4;
+  }
+  .img-curso-4 {
+    grid-area: img-curso-4;
+  }
+  .curso-5 {
+    grid-area: curso-5;
+  }
+  .img-curso-5 {
+    grid-area: img-curso-5;
+  }
+  .img-curso-1 img,
+  .img-curso-2 img,
+  .img-curso-3 img,
+  .img-curso-4 img,
+  .img-curso-5 img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .centrar {
+    text-align: center;
+  }
+  .Lo-Quiero {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .frustrado img {
+    width: auto;
+    height: 300px;
+  }
+  .bajar {
+    margin-top: 20rem;
+  }
 }
-    .menu{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .centrar{
-        text-align: center;
-    }
-    .Lo-Quiero{
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 10px;
-    }
-    .frustrado img{
-        width: auto;
-        height: 300px;
-        
-    }
-    .bajar{
-        margin-top: 20rem;
-        
-    }
-}
+
+/*# sourceMappingURL=estilo.css.map */

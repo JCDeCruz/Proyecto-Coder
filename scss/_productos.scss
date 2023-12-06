@@ -1,0 +1,111 @@
+h4 {
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: underline;
+  }
+  
+  .contenedor-productos {
+    color: white;
+    width: auto;
+    height: auto;
+    margin: 5.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "curso-1 img-curso-1"
+      "curso-2 img-curso-2"
+      "curso-3 img-curso-3"
+      "curso-4 img-curso-4"
+      "curso-5 img-curso-5";
+  }
+  
+  .img-curso-1 {
+    grid-area: img-curso-1;
+  }
+  
+  .img-curso-2 {
+    grid-area: img-curso-2;
+  }
+  
+  .img-curso-3 {
+    grid-area: img-curso-3;
+  }
+  
+  .img-curso-4 {
+    grid-area: img-curso-4;
+  }
+  
+  .img-curso-5 {
+    grid-area: img-curso-5;
+  }
+  
+  .curso-1 {
+    grid-area: curso-1;
+  }
+  
+  .curso-2 {
+    grid-area: curso-2;
+  }
+  
+  .curso-3 {
+    grid-area: curso-3;
+  }
+  
+  .curso-4 {
+    grid-area: curso-4;
+  }
+  
+  .curso-5 {
+    grid-area: curso-5;
+  }
+  
+  .img-curso-1 img,
+  .img-curso-2 img,
+  .img-curso-3 img,
+  .img-curso-4 img,
+  .img-curso-5 img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .img-curso-1 img:hover,
+  .img-curso-2 img:hover,
+  .img-curso-3 img:hover,
+  .img-curso-4 img:hover,
+  .img-curso-5 img:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  
+  .Lo-Quiero {
+    background-color: rgb(10, 9, 9);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 320px;
+  }
+  
+  .Lo-Quiero:hover {
+    background-color: rgba(250, 167, 66, 0.445);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .clientes {
+    width: 100%;
+    height: auto;
+  }
+  
+  .clientes:hover {
+    transform: scale(1.05);
+  }
+  
