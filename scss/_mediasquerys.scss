@@ -85,4 +85,16 @@
         margin-top: 20rem;
         
     }
+
+    .row {
+        flex-direction: column;
+
+        .column {
+            flex: 100%;
+
+            p{
+                margin: 5rem;
+            }
+        }
+    }
 }

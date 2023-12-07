@@ -232,6 +232,32 @@ h4 {
   transform: scale(1.05);
 }
 
+.Referencias {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Referencias .row {
+  display: flex;
+  width: 100%;
+}
+.Referencias .row .column {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+}
+.Referencias .row .column p {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.Referencias .row .column img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 footer {
   width: 90%;
   height: 80px;
@@ -347,6 +373,15 @@ footer .menu li a:hover {
   }
   .bajar {
     margin-top: 20rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .row .column {
+    flex: 100%;
+  }
+  .row .column p {
+    margin: 5rem;
   }
 }
 
