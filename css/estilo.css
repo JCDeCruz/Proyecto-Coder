@@ -13,7 +13,7 @@ nav {
   width: 90%;
   height: 80px;
   margin: 0 auto;
-  background-color: darkorange;
+  background-color: rgba(9, 255, 0, 0.253);
   display: flex;
   justify-content: space-between;
 }
@@ -57,7 +57,7 @@ main {
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 main .content {
   flex: 1;
@@ -67,10 +67,17 @@ main .content h3 {
   margin-left: 5rem;
   font-size: 2rem;
 }
+main .content .text-frust {
+  margin: 0;
+  padding: 1rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  margin-right: 4rem;
+}
 main .frustrado img {
   width: 650px;
   height: auto;
-  padding-right: 70px;
+  padding-right: 100px;
   border-radius: 30px;
   padding-top: 3rem;
 }
@@ -106,7 +113,6 @@ h2 {
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
-  height: 500px;
 }
 .contenedor .img-izq, .contenedor .img-der {
   flex: 1;
@@ -260,19 +266,20 @@ h4 {
 
 footer {
   width: 90%;
-  height: 80px;
+  height: 90px;
   margin: 0 auto;
-  background-color: darkorange;
+  background-color: rgba(9, 255, 0, 0.253);
   display: flex;
   justify-content: space-evenly;
 }
 footer .menu {
   list-style: none;
-  padding: 2rem;
   margin: 0;
+  display: flex;
 }
 footer .menu li {
-  display: inline;
+  margin: 0 6rem;
+  display: inline-block;
 }
 footer .menu li a {
   color: white;
@@ -282,6 +289,11 @@ footer .menu li a {
 footer .menu li a:hover {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .menu li a img {
+  width: 60px;
+  height: auto;
+  display: block;
 }
 
 @media screen and (max-width: 600px) {
@@ -300,8 +312,12 @@ footer .menu li a:hover {
     padding-top: 100px;
   }
   nav {
-    width: 85%;
-    height: 85px;
+    height: 70px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    align-items: center;
   }
   .contenedor-productos {
     color: white;
@@ -371,9 +387,6 @@ footer .menu li a:hover {
     width: auto;
     height: 300px;
   }
-  .bajar {
-    margin-top: 20rem;
-  }
   .row {
     flex-direction: column;
   }
@@ -382,6 +395,23 @@ footer .menu li a:hover {
   }
   .row .column p {
     margin: 5rem;
+  }
+  footer {
+    height: 80px;
+    padding: 50px;
+  }
+  footer .menu {
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .menu li {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+  footer .menu li a img {
+    width: 50;
   }
 }
 

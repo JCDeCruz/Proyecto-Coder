@@ -1,17 +1,20 @@
-footer{
+footer {
     width: 90%;
-    height: 80px;
+    height: 90px;
     margin: 0 auto;
-    background-color: darkorange;
+    background-color: rgba(9, 255, 0, 0.253);
     display: flex;
     justify-content: space-evenly;
+
     .menu {
         list-style: none;
-        padding: 2rem;
         margin: 0;
-        
+        display: flex; 
+
         li {
-            display: inline;
+            margin: 0 6rem; 
+            display: inline-block;
+
             a {
                 color: white;
                 text-decoration: none;
@@ -21,7 +24,14 @@ footer{
                     color: black;
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
                 }
+
+                img {
+                    width: 60px;
+                    height: auto;
+                    display: block;
+                }
             }
         }
     }
 }
+

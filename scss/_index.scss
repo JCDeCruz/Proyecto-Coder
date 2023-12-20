@@ -15,7 +15,7 @@ main{
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     .content{
         flex: 1;
         h3{
@@ -23,12 +23,20 @@ main{
             margin-left: 5rem;
             font-size: 2rem;
         }
+
+        .text-frust{
+            margin: 0;
+            padding: 1rem;
+            margin-left: 4rem;
+            margin-bottom: 2rem;
+            margin-right: 4rem;
+        }
     }
     .frustrado{
         img{
             width: 650px;
             height: auto;
-            padding-right: 70px;
+            padding-right: 100px;
             border-radius: 30px;
             padding-top: 3rem;
         }
