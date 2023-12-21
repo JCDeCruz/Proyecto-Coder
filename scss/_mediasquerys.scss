@@ -80,10 +80,16 @@
         margin: 0 auto;
         margin-bottom: 10px;
     }
-    .frustrado img{
-        width: auto;
-        height: 300px;
-        
+    .content {
+        flex-direction: column;
+    
+        .frustrado {
+          width: 100%; 
+          height: auto;
+          margin: 0 auto;
+          padding-right: 100px;
+          padding-bottom: 20px;
+        }
     }
     .row {
         flex-direction: column;
